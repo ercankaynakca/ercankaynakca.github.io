@@ -284,6 +284,10 @@ a:focus {
 #ercan {
     margin-top: 5%
     margin-bottom: 5%;
+    height: 50%;
+    width: 50%;
+}
+
 }
 
 @media(min-width:767px) {
@@ -298,6 +302,13 @@ a:focus {
     #map {
         height: 400px;
         margin-top: 250px;
+    }
+
+    #ercan {
+    margin-top: 5%
+    margin-bottom: 5%;
+    height: 50%;
+    width: 50%;
     }
 }
 
