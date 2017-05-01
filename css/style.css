@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    margin: 0;
+}
+
+a {
+    color: limegreen;
+    text-decoration: none;
+}
+a:hover {
+    color: green;
+}
+
+/** header **/
+
+header {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+.btn {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 1.5em;
+    margin: 10px auto;
+    border-radius: 3px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 1px solid transparent;
+    background-color: black;
+    color: limegreen;
+}
+
+
+header p, p {
+    line-height: 30px;
+}
+
+h1, h2 {
+        font-family: 'Arvo', sans-serif;
+        text-align: center;
+}
+
+/** about section **/
+
+#about {
+    padding: 0% 10%;
+}
+
+
+/** contact list **/
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+   padding-right: 8px;
+}
+
+section {
+    margin-bottom: 5%;
+}
+
+#contact {
+    padding: 0% 10% 10% 10% ;
+}
+footer {
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    font-size: .8em;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
